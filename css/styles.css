@@ -18,19 +18,16 @@ a {
     color:#fff;
     position:absolute;
     top:80%;
-    transform:translate(-50%;)
+    transform:translate(-50%);
     left:0;
 }
 .bg__heading--outline {
     color: #fff;
-    -webkit-text-fill-color: #f5f3f4;; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #f5f3f4; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #b1a7a6;
 }
-.content {
-    /* max-width:800px; */
-    /* margin:auto; */
-}
+
 .intro-container {
 padding-left:5rem;
 margin-left:1rem;
@@ -64,6 +61,6 @@ max-width:750px;
 @media(min-width:600px) {
     .bg__heading {
         top:50%;
-        transform:translate(-50%;)
+        transform:translate(-50%);
     }
 }
